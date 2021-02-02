@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('aia_support', \App\Http\Controllers\AiaSupportController::class);
+Route::resource('home', \App\Http\Controllers\HomeController::class);
